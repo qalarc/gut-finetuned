@@ -1,0 +1,3 @@
+{"url": "https://www.endispute.com.au", "goal": "Explore this site: find the services or practice-area sections, click into one detail page, verify content, then return via the site logo. Do not fill or submit any form. done after visiting one detail page and returning."}
+{"url": "https://qalarc.com/blog", "goal": "Navigate the blog index, click the first post link, verify the article page loads with a heading, then return to the blog index. Do not submit any form. done when the post was opened and you returned."}
+{"url": "https://qalarc.com", "goal": "Find the contact page or contact link using the navigation and click it. Do not fill or submit the form. done when a page with contact details or a contact form is visible."}

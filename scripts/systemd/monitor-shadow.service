@@ -1,0 +1,18 @@
+# monitor_shadow systemd user units — OPTIONAL, enable manually.
+#
+# The monitor never depends on this watcher; it only READS hub.db. If the watcher
+# dies, nothing breaks — the dataset just stops growing until it's restarted.
+#
+#   mkdir -p ~/.config/systemd/user
+#   cp scripts/systemd/monitor-shadow.{service,timer} ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now monitor-shadow.timer
+#
+# Poll cadence: every 10 min. One Jev call per new monitor event (~$0.00002 each).
+
+[Unit]
+Description=Laya Jev-shadow: label live monitor transitions into monitor-triage dataset
+
+[Service]
+Type=oneshot
+ExecStart=%h/projects/GLM_projects/investigation/typesafe_jev/laya-venv/bin/python %h/projects/GLM_projects/Laya_integrations/scripts/monitor_shadow.py --once

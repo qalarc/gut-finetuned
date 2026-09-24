@@ -1,0 +1,15 @@
+# private/local only
+datasets/*.jsonl
+!datasets/samples/*.jsonl
+checkpoints/
+recordings/
+traces/
+.browser-venv/
+.opencode/
+dist-gut/
+*.log
+__pycache__/
+kaggle/**/kernel-metadata.json
+hf.env
+.env
+*.mp4
