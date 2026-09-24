@@ -13,3 +13,4 @@ kaggle/**/kernel-metadata.json
 hf.env
 .env
 *.mp4
+!docs/gut_promo.mp4
