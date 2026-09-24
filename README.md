@@ -11,6 +11,12 @@ from your own machine: ~20 ms on a GPU, $0 marginal, private by default.
 - Weights: [huggingface.co/Qalarc/Laya-GUT-Finetune](https://huggingface.co/Qalarc/Laya-GUT-Finetune)
 - Project page: [qalarc.com/projects/gut/](https://qalarc.com/projects/gut/)
 
+<a href="https://gut.qalarc.com/#video"><img src="docs/gut_demo.gif" alt="GUT navigating the ASIC business-name registration workflow" width="100%"></a>
+
+*GUT steering a live browser through the ASIC business-name registration workflow — every
+hop is a real decision: options scanned, candidates weighed, choice made at ~20ms, training
+row saved. **Full 80s film with sound at [gut.qalarc.com](https://gut.qalarc.com/#video)***
+
 ## How it works — three moves
 
 ```
