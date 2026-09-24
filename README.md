@@ -8,7 +8,7 @@ websites autonomously, and serves the **exact same wire API** as a cloud decisio
 from your own machine: ~20 ms on a GPU, $0 marginal, private by default.
 
 - Live instance: [gut.qalarc.com](https://gut.qalarc.com/)
-- Weights: [huggingface.co/Qalarc](https://huggingface.co/Qalarc)
+- Weights: [huggingface.co/Qalarc/Laya-GUT-Finetune](https://huggingface.co/Qalarc/Laya-GUT-Finetune)
 - Project page: [qalarc.com/projects/gut/](https://qalarc.com/projects/gut/)
 
 ## How it works — three moves
